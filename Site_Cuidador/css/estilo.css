@@ -4,25 +4,25 @@ body{
 }
 
 header {
-    background-color: #666;
+    background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: black;
   }
 
 nav {
     float: left;
     width: 15%;
     height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+    background: #f1f1f1;
     padding: 50px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    font-size: 40px;;
+    font-size: 35px;;
 }
   
 section:after {
@@ -41,10 +41,10 @@ article {
   }
   
 footer {
-    background-color: #777;
+    background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 @media (max-width: 600px) {
